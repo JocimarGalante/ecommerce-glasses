@@ -360,7 +360,7 @@ button:focus {
     color: #ffffff;
     display: inline-block;
     padding: 13px 40px;
-    margin-top: -3px;
+    margin-top: -6px;
     margin-left: -5px;
 }
 #subscribe-loading {
