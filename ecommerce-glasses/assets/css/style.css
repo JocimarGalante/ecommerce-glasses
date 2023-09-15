@@ -322,7 +322,7 @@ button:focus {
 /* 6 ------- Subscribe Section Styles ---------*/
 
 .subscribe-section {
-    background: url(../../images/background/1.jpg) no-repeat center center fixed;
+    background: url(../../images/background/background.jpg) no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
 }
@@ -522,7 +522,7 @@ button:focus {
 /* 8 ------- Sponsors Section Styles -------*/
 
 .sponsors {
-    background: url(../../images/background/2.jpg) no-repeat center center fixed;
+    background: url(../../images/background/background_2.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .section-pattern {
@@ -572,7 +572,7 @@ button:focus {
 /* 10 ------- Testimonial Section Styles --------*/
 
 .testimonial {
-    background: url(../../images/background/3.jpg) no-repeat center center fixed;
+    background: url(../../images/background/background_3.jpg) no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
 }
