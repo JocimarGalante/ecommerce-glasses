@@ -1,14 +1,10 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <!--<![endif]-->
 <html class="no-js" lang="">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Jogador Caro</title>
-    <meta name="description" content="Jogador Caro" />
+    <title>Polmo</title>
+    <meta name="description" content="Polmo" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     <!-- Include Bootstrap Css -->
@@ -29,6 +25,9 @@
     <link rel="stylesheet" href="assets/css/responsive.min.css" />
     <!-- Include Modernizer Js -->
     <script src="assets/js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="https://cdn.tailwindcss.com/3.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.6.95/css/materialdesignicons.css"></script>
   </head>
   <body>
     <!-- Header Section -->
@@ -1150,10 +1149,83 @@
                 <div class="carousel-inner" role="listbox">
                   <div class="item active">
                     <blockquote class="client-quote">
-                      Não poderia estar mais feliz com minha compra! Os óculos
-                      de sol que comprei não apenas protegem meus olhos, mas
-                      também adicionaram um toque de estilo incrível ao meu
-                      visual. Recomendo a todos!
+                      <div class="flex justify-center items-center">
+                        <div>
+                          <div
+                            class="content relative rounded-md shadow dark:shadow-gray-700 m-2 p-6 bg-white dark:bg-slate-900"
+                            style="opacity: 85%"
+                          >
+                            <i
+                              class="mdi mdi-format-quote-open mdi-48px text-primary-600"
+                            ></i>
+                            <p class="text-slate-400">
+                              <i
+                                class="fa fa-quote-left"
+                                aria-hidden="true"
+                              ></i>
+                              Não poderia estar mais feliz com minha compra! Os
+                              óculos de sol que comprei não apenas protegem meus
+                              olhos, mas também adicionaram um toque de estilo
+                              incrível ao meu visual. Recomendo a todos!
+                              <i
+                                class="fa fa-quote-right"
+                                aria-hidden="true"
+                              ></i>
+                            </p>
+                            <ul
+                              class="list-none text-center mb-0 text-warning-400 mt-3"
+                            >
+                              <li class="inline">
+                                <i
+                                  class="fa fa-star"
+                                  style="color: yellow"
+                                  aria-hidden="true"
+                                ></i>
+                              </li>
+                              <li class="inline">
+                                <i
+                                  class="fa fa-star"
+                                  style="color: yellow"
+                                  aria-hidden="true"
+                                ></i>
+                              </li>
+                              <li class="inline">
+                                <i
+                                  class="fa fa-star"
+                                  style="color: yellow"
+                                  aria-hidden="true"
+                                ></i>
+                              </li>
+                              <li class="inline">
+                                <i
+                                  class="fa fa-star"
+                                  style="color: yellow"
+                                  aria-hidden="true"
+                                ></i>
+                              </li>
+                              <li class="inline">
+                                <i
+                                  class="fa fa-star"
+                                  style="color: yellow"
+                                  aria-hidden="true"
+                                ></i>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="text-center mt-5">
+                            <img
+                              src="https://ik.imagekit.io/ktdjfymfk/pexels-tu%E1%BA%A5n-ki%E1%BB%87t-jr-1382731_tm8mzH73n.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654166709020"
+                              class="h-14 w-14 rounded-full shadow-md mx-auto"
+                              alt=""
+                            />
+                            <h6 class="mt-2 fw-semibold">Bárbara Silvana</h6>
+                            <span class="text-slate-400 text-sm"
+                              >Professora</span
+                            >
+                          </div>
+                        </div>
+                      </div>
                     </blockquote>
                     <!-- /.client-quote -->
                   </div>
@@ -1687,4 +1759,21 @@
         });
     </script>
   </body>
+  <style>
+    .content::after {
+      content: "";
+      position: absolute;
+      background-color: #fff;
+      height: 20px;
+      width: 20px;
+      left: 48.9%;
+      bottom: -10px;
+      transform: rotate(45deg);
+      --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+      --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),
+        0 1px 2px -1px var(--tw-shadow-color);
+      box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+        var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    }
+  </style>
 </html>
